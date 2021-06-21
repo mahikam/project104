@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Project 104</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+    <center>
+    <h1 class="btn btn-default" id="header">Face Recognition Web App</h1>
+    <br><br>
+    <h5 class="objects">Sanjay(Dad)</h5>
+    <hr>
+    <h5 class="objects">Madhavi(Mom)</h5>
+    <hr>
+    <h5 class="objects">Sanvi(Sister #1)</h5>
+    <hr>
+    <h5 class="objects">Mahika(Sister #2)</h5>
+    <hr>
+    <br><br>
+    <div id="camera"></div>
+    <br><br>
+    <div id="result"></div>
+    <br><br>
+    <button id="capture" onclick="take_snapshot()">Capture Image</button>
+    <br><br>
+    <button id="identify" onclick="identify()">Identify Image</button>
+    <br><br>
+    <h4>Family Member : <span></span></h4>
+    <h4>Accuracy : <span></span></h4>
+</center>
+
+<script src="main.js"></script>
+
+</body>
+</html>

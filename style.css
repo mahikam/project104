@@ -1,0 +1,30 @@
+body{
+    background-color: #d5b9b2;
+}
+
+#identify{
+    background-color: #a26769;
+    border-radius: 30px;
+}
+
+#capture{
+    background-color: #cb997e;
+    border-radius: 30px;
+}
+
+.objects{
+    color: #6d2e46;
+}
+
+#header{
+    width: 1000px;
+    font-size: 20px;
+    background-color: #6d2e46;
+    color: white;
+}
+
+#camera{
+    border: 2px dashed #6d2e46;
+    width: 300px;
+    height: 300px;
+}
